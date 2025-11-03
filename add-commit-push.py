@@ -22,7 +22,7 @@ def main():
     if "-f" in sys.argv:
         force = True
 
-    print("\n📋 git status:")
+    print("\n git status:")
     run_command("git status")
 
     commands = [
@@ -48,6 +48,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 if __name__ == "__main__":
     main()
