@@ -31,20 +31,23 @@ def main():
         "git push"
     ]
 
-    print("\n🧩 Queued commands:")
+    print("\n Queued commands:")
     for c in commands:
         print(f"  {c}")
 
     if not force:
         confirm = input("\nRun these commands? (y/n): ").lower()
         if confirm != "y":
-            print("❌ Operation cancelled.")
+            print(" Operation cancelled.")
             sys.exit()
 
     for c in commands:
         run_command(c)
 
-    print("\n✅ All commands executed successfully!")
+    print("\n All commands executed successfully")
+
+if __name__ == "__main__":
+    main()
 
 if __name__ == "__main__":
     main()
