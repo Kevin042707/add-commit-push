@@ -1,3 +1,7 @@
+# Aliases
+# alias g5='cd ~/sprint-5'
+# alias acp='python ~/sprint-5/add-commit-push.py'
+
 import subprocess
 import sys
 
@@ -46,7 +50,5 @@ def main():
 
     print("\n All commands executed successfully")
 
-if __name__ == "__main__":
-    main()
 if __name__ == "__main__":
     main()
